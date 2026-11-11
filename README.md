@@ -92,7 +92,14 @@ npm run test
 
 הפרויקט כולל Workflow מוכן ב-`.github/workflows/release.yml`.
 
-### כיצד לשחרר גרסה חדשה ב-GitHub:
+### כיצד להפעיל את ה-Workflow ולשחרר גרסה:
+
+#### דרך א' (הקלה ביותר – כפתור Run workflow ישירות מהאתר):
+1. היכנסו ללשונית **Actions** ב-Repository שלכם ב-GitHub.
+2. בחרו מצד שמאל ב-**GreenWalk Release & CI/CD**.
+3. לחצו על כפתור **"Run workflow"** בצד ימין למעלה, ולאחר מכן על הכפתור הירוק.
+
+#### דרך ב' (באמצעות Git Tag):
 1. ודאו שהקוד נדחף ל-Repository שלכם ב-GitHub:
    ```bash
    git add .
