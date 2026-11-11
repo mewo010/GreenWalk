@@ -1,0 +1,6 @@
+{
+  "name": "GreenWalk",
+  "description": "GreenWalk - תזמון רמזורים להולכי רגל לתכנון יציאה מדויקת באור ירוק",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
